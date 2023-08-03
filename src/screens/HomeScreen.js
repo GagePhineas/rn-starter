@@ -17,9 +17,24 @@ const HomeScreen = ({navigation}) => {
     onPress={() => navigation.navigate('List')}
     />
 
-<Button 
+    <Button 
     title="Go to Image Demo" 
     onPress={() => navigation.navigate('Image')}
+    />
+
+    <Button 
+    title="Go to Counter Demo" 
+    onPress={() => navigation.navigate('Counter')}
+    />
+
+    <Button 
+    title="Go to Color Demo" 
+    onPress={() => navigation.navigate('Color')}
+    />
+
+    <Button 
+    title="Go to Square Demo" 
+    onPress={() => navigation.navigate('Square')}
     />
 
     {/* <TouchableOpacity onPress={() => props.navigation.navigate('List')}>
@@ -28,7 +43,7 @@ const HomeScreen = ({navigation}) => {
       <Text>Go to List Demo</Text>
     </TouchableOpacity> */}
   </View>
-  )
+  );
 };
 
 const styles = StyleSheet.create({
